@@ -108,16 +108,17 @@ h4 {
 }
 
 .card .details p {
-	font-size: 15px;
-	line-height: 5px;
-	transform: rotate(-10deg);
-	padding: 0 0 0 20px;
-}
-
-.card .details h4 {
+	font-size: 12px;
+	line-height: 1.2;
+	margin: 2px 0;
+	transform: none;
+  }
+  
+  .card .details h4 {
 	text-align: center;
-}
-
-.text-right {
+  }
+  
+  .text-right {
 	text-align: right;
-}
+  }
+  
