@@ -13,7 +13,7 @@ body {
 }
 
 h4 {
-  font-size: 20px; /* Ajusta el tamaño de fuente para dispositivos móviles */
+  font-size: 40px;
   line-height: 1.2;
   font-family: 'Amatic SC', cursive !important;
 }
@@ -31,9 +31,9 @@ h4 {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 90%; /* Cambia el ancho a un porcentaje para adaptarse al tamaño de la pantalla */
-  max-width: 300px; /* Establece un ancho máximo para evitar que la tarjeta sea demasiado grande */
-  height: auto; /* Permite que la altura se ajuste automáticamente según el contenido */
+  width: 100%;
+  width: 500px;
+  height: 650px;
   background: #e0e1dc;
   transform-style: preserve-3d;
   transform: translate(-50%, -50%) perspective(2000px);
@@ -88,8 +88,8 @@ h4 {
 }
 
 .card .imgBox img {
-  min-width: 250px;
-  max-height: 400px;
+  min-width: 500px;
+  max-height: 650px;
 }
 
 .card:hover .imgBox {
@@ -107,14 +107,14 @@ h4 {
   top: 0;
   left: 0;
   box-sizing: border-box;
-  padding: 0 10px; /* Añade un poco de espacio a los lados para que el texto no se superponga */
+  padding: 0 10px;
   z-index: -1;
   margin-top: 0px;
 }
 
 .card .details p {
-  font-size: 11px; /* Ajusta el tamaño de fuente según tus preferencias */
-  line-height: 1.4; /* Espaciado entre párrafos */
+  font-size: 15px;
+  line-height: 1.4;
   margin: 10px 0;
   transform: none;
 }
